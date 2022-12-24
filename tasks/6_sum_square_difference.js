@@ -16,4 +16,4 @@ const difference = (n) => {
   );
 };
 
-console.log(difference(10));
+console.log(difference(100));
