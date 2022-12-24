@@ -39,4 +39,4 @@ const nthPrimeNum = (n) => {
   return num;
 };
 
-console.log(nthPrimeNum(10001));
+console.log(nthPrimeNum(10001)); /* 104743 */

@@ -10,4 +10,4 @@ const multiples = (n) => {
     .reduce((acc, _, i) => (i % 3 === 0 || i % 5 === 0 ? acc + i : acc), 0);
 };
 
-console.log(multiples(1000));
+console.log(multiples(1000)); /* 233168 */

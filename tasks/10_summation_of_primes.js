@@ -38,4 +38,4 @@ const primeSum = (n) => {
   return sum;
 };
 
-console.log(primeSum(2000000));
+console.log(primeSum(2000000)); /* 142913828922 */

@@ -32,4 +32,4 @@ const largestPrime = (n) => {
   }
 };
 
-console.log(largestPrime(600851475143));
+console.log(largestPrime(600851475143)); /* 6857 */

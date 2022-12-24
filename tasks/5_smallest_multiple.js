@@ -21,4 +21,4 @@ const LCM = (n) => {
   });
 };
 
-console.log(LCM(20));
+console.log(LCM(20)); /* 232792560 */

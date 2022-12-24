@@ -22,4 +22,4 @@ const sumEvenFibonacci = (n) => {
   return sum;
 };
 
-console.log(sumEvenFibonacci(4000000));
+console.log(sumEvenFibonacci(4000000)); /* 4613732 */

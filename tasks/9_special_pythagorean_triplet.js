@@ -11,8 +11,8 @@
 const tripletSum = 1000;
 
 const pythagoreanTriplet = () => {
-  for (let a = 0; a <= tripletSum; a++) {
-    for (let b = 0; b <= tripletSum; b++) {
+  for (let a = 1; a <= tripletSum; a++) {
+    for (let b = 1; b <= tripletSum; b++) {
       const c = tripletSum - a - b;
       if (a ** 2 + b ** 2 === c ** 2) {
         return a * b * c;
@@ -21,4 +21,4 @@ const pythagoreanTriplet = () => {
   }
 };
 
-console.log(pythagoreanTriplet());
+console.log(pythagoreanTriplet()); /* 31875000, a = 200, b = 375, c = 425 */

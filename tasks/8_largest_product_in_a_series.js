@@ -55,4 +55,6 @@ const findMaxProduct = (n) => {
   };
 };
 
-console.log(findMaxProduct(13));
+console.log(
+  findMaxProduct(13)
+); /* { number: 5576689664895, product: 23514624000 } */

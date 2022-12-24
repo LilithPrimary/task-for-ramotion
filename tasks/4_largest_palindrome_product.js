@@ -35,4 +35,4 @@ const largestPalindrome = (maxNum) => {
   return maxPalindrome;
 };
 
-console.log(largestPalindrome(999));
+console.log(largestPalindrome(999)); /* 906609 */
