@@ -14,7 +14,7 @@ const pythagoreanTriplet = () => {
   for (let a = 1; a <= tripletSum; a++) {
     for (let b = 1; b <= tripletSum; b++) {
       const c = tripletSum - a - b;
-      if (a ** 2 + b ** 2 === c ** 2) {
+      if (a ** 2 + b ** 2 === c ** 2 && a < b && b < c) {
         return a * b * c;
       }
     }
